@@ -1,0 +1,71 @@
+{
+  "title": "Appointment",
+  "doctor": {
+    "name": "Dr.Upul",
+    "clinic": "Denteeth",
+    "avatarUrl": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=300&q=80",
+    "actions": {
+      "message": true,
+      "call": true,
+      "videoCall": true
+    }
+  },
+  "payment": {
+    "label": "Payment",
+    "amount": 120.0,
+    "currency": "USD",
+    "formatted": "$120.00"
+  },
+  "details": {
+    "title": "Details",
+    "description": "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate leo et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis condimentum et, vestibulum eu nisl."
+  },
+  "workingHours": {
+    "title": "Working Hours",
+    "showAll": true,
+    "slots": [
+      {
+        "id": "10am",
+        "label": "10.00 AM",
+        "selected": false
+      },
+      {
+        "id": "11am",
+        "label": "11.00 AM",
+        "selected": true
+      },
+      {
+        "id": "12pm",
+        "label": "12.00 PM",
+        "selected": false
+      }
+    ]
+  },
+  "date": {
+    "title": "Date",
+    "showAll": true,
+    "slots": [
+      {
+        "id": "sun-4",
+        "label": "Sun 4",
+        "selected": true
+      },
+      {
+        "id": "mon-5",
+        "label": "Mon 5",
+        "selected": false
+      },
+      {
+        "id": "tue-6",
+        "label": "Tue 6",
+        "selected": false
+      }
+    ]
+  },
+  "actions": {
+    "bookAppointment": {
+      "label": "Book an Appointment",
+      "enabled": true
+    }
+  }
+}

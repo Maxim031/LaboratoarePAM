@@ -1,0 +1,64 @@
+{
+  "user": {
+    "name": "Jonathan",
+    "greeting": "Hi, Jonathan",
+    "subtitle": "May you always be healthy!",
+    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=160&q=80"
+  },
+  "notifications": {
+    "hasUnread": true
+  },
+  "search": {
+    "hint": "Search something"
+  },
+  "appointment": {
+    "title": "Appointment",
+    "date": "22 October, 2023",
+    "time": "08:00 AM - 10.30 AM",
+    "doctor": {
+      "name": "Dr. Richar Kandowen",
+      "specialty": "Child Specialist",
+      "avatarUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=160&q=80"
+    }
+  },
+  "healthServices": [
+    {
+      "id": "tooth",
+      "name": "Tooth",
+      "iconUrl": "https://api.iconify.design/mdi/tooth-outline.svg?color=%23FF6B6B&width=64"
+    },
+    {
+      "id": "eye",
+      "name": "Eye",
+      "iconUrl": "https://api.iconify.design/mdi/eye-outline.svg?color=%232F8FA8&width=64"
+    },
+    {
+      "id": "lungs",
+      "name": "Lungs",
+      "iconUrl": "https://api.iconify.design/mdi/lungs.svg?color=%23FF6B6B&width=64"
+    },
+    {
+      "id": "ear",
+      "name": "Ear",
+      "iconUrl": "https://api.iconify.design/mdi/ear-hearing.svg?color=%23FFB36B&width=64"
+    }
+  ],
+  "nearbyDoctors": [
+    {
+      "id": "doctor-001",
+      "name": "Dr. Emmly Lestiryno",
+      "specialty": "General Practitioner",
+      "distance": "3167 Durgan Shores - 500M from you",
+      "avatarUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=160&q=80",
+      "isFavorite": false
+    },
+    {
+      "id": "doctor-002",
+      "name": "Dr. Sonja Litel",
+      "specialty": "Dental Specialist",
+      "distance": "950 Sigrid Port - 753M from you",
+      "avatarUrl": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=160&q=80",
+      "isFavorite": false
+    }
+  ]
+}
